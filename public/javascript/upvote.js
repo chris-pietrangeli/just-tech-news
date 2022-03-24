@@ -20,7 +20,7 @@ async function upvoteClickHandler(event) {
     } else {
     alert(response.statusText);
     }
-  };
+};
   
   
 document.querySelector('.upvote-btn').addEventListener('click', upvoteClickHandler);
